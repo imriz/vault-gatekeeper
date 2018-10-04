@@ -253,7 +253,19 @@
 
 [[projects]]
   name = "github.com/nemosupremo/vault-gatekeeper"
-  packages = ["."]
+  packages = [
+    ".",
+    "cmd",
+    "gatekeeper",
+    "policy",
+    "scheduler",
+    "scheduler/ecs",
+    "scheduler/mesos",
+    "scheduler/mock",
+    "usagestore",
+    "vault",
+    "vault/unsealer"
+  ]
   version = "v1.0.3"
 
 [solve-meta]
