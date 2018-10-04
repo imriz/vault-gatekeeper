@@ -251,9 +251,15 @@
   revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
   version = "v2.2.1"
 
+[[projects]]
+  name = "github.com/nemosupremo/vault-gatekeeper"
+  packages = ["."]
+  branch = "master"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
   inputs-digest = "9048eb7a83b6106108531a77fa0c5808767dbbbe67efbe56ee3846d71f38815c"
   solver-name = "gps-cdcl"
   solver-version = 1
+
