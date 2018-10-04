@@ -254,7 +254,7 @@
 [[projects]]
   name = "github.com/nemosupremo/vault-gatekeeper"
   packages = ["."]
-  branch = "master"
+  version = "v1.0.3"
 
 [solve-meta]
   analyzer-name = "dep"
