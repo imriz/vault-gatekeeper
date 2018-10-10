@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/franela/goreq"
-	"github.com/nemosupremo/vault-gatekeeper/vault"
+	"github.com/imriz/vault-gatekeeper/vault"
 	log "github.com/sirupsen/logrus"
 )
 

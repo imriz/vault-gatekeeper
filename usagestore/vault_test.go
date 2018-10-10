@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/franela/goreq"
-	"github.com/nemosupremo/vault-gatekeeper/vault"
+	"github.com/imriz/vault-gatekeeper/vault"
 	"github.com/segmentio/ksuid"
 	"github.com/spf13/viper"
 )

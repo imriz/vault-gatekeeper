@@ -9,8 +9,8 @@ import (
 
 	"github.com/franela/goreq"
 	"github.com/go-chi/chi"
-	"github.com/nemosupremo/vault-gatekeeper/scheduler"
-	"github.com/nemosupremo/vault-gatekeeper/vault/unsealer"
+	"github.com/imriz/vault-gatekeeper/scheduler"
+	"github.com/imriz/vault-gatekeeper/vault/unsealer"
 )
 
 func (g *Gatekeeper) OkResponse(w http.ResponseWriter, message string) {

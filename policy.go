@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/franela/goreq"
-	"github.com/nemosupremo/vault-gatekeeper/policy"
-	"github.com/nemosupremo/vault-gatekeeper/vault"
+	"github.com/imriz/vault-gatekeeper/policy"
+	"github.com/imriz/vault-gatekeeper/vault"
 )
 
 var policyNotFound = errors.New("No policy saved at configured location.")

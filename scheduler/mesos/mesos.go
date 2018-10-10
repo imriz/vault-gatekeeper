@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/mesos/mesos-go/api/v0/upid"
-	"github.com/nemosupremo/vault-gatekeeper/scheduler"
+	"github.com/imriz/vault-gatekeeper/scheduler"
 	"github.com/samuel/go-zookeeper/zk"
 	"github.com/sirupsen/logrus"
 )

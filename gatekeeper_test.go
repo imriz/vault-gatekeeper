@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/franela/goreq"
-	"github.com/nemosupremo/vault-gatekeeper/policy"
-	"github.com/nemosupremo/vault-gatekeeper/scheduler"
-	"github.com/nemosupremo/vault-gatekeeper/scheduler/mock"
-	"github.com/nemosupremo/vault-gatekeeper/vault"
-	"github.com/nemosupremo/vault-gatekeeper/vault/unsealer"
+	"github.com/imriz/vault-gatekeeper/policy"
+	"github.com/imriz/vault-gatekeeper/scheduler"
+	"github.com/imriz/vault-gatekeeper/scheduler/mock"
+	"github.com/imriz/vault-gatekeeper/vault"
+	"github.com/imriz/vault-gatekeeper/vault/unsealer"
 	"github.com/segmentio/ksuid"
 	"github.com/spf13/viper"
 )

@@ -1,7 +1,7 @@
 package mock
 
 import (
-	"github.com/nemosupremo/vault-gatekeeper/scheduler"
+	"github.com/imriz/vault-gatekeeper/scheduler"
 )
 
 func init() {

@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nemosupremo/vault-gatekeeper"
-	"github.com/nemosupremo/vault-gatekeeper/scheduler"
-	"github.com/nemosupremo/vault-gatekeeper/vault/unsealer"
+	"github.com/imriz/vault-gatekeeper"
+	"github.com/imriz/vault-gatekeeper/scheduler"
+	"github.com/imriz/vault-gatekeeper/vault/unsealer"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -97,7 +97,7 @@ func intro() {
 	fmt.Println(" __")
 	fmt.Println("/__ _ _|_ _ |/  _  _ |_) _  __")
 	fmt.Println("\\_|(_| |_(/_|\\ (/_(/_|  (/_ |")
-	fmt.Println("github.com/nemosupremo/vault-gatekeeper")
+	fmt.Println("github.com/imriz/vault-gatekeeper")
 	fmt.Println("Version: " + Version)
 }
 

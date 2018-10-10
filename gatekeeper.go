@@ -16,12 +16,12 @@ import (
 
 	"github.com/cenkalti/backoff"
 	"github.com/franela/goreq"
-	gkClient "github.com/nemosupremo/vault-gatekeeper/gatekeeper"
-	"github.com/nemosupremo/vault-gatekeeper/policy"
-	"github.com/nemosupremo/vault-gatekeeper/scheduler"
-	"github.com/nemosupremo/vault-gatekeeper/usagestore"
-	"github.com/nemosupremo/vault-gatekeeper/vault"
-	"github.com/nemosupremo/vault-gatekeeper/vault/unsealer"
+	gkClient "github.com/imriz/vault-gatekeeper/gatekeeper"
+	"github.com/imriz/vault-gatekeeper/policy"
+	"github.com/imriz/vault-gatekeeper/scheduler"
+	"github.com/imriz/vault-gatekeeper/usagestore"
+	"github.com/imriz/vault-gatekeeper/vault"
+	"github.com/imriz/vault-gatekeeper/vault/unsealer"
 	"github.com/segmentio/ksuid"
 	log "github.com/sirupsen/logrus"
 )
