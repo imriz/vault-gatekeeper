@@ -567,11 +567,11 @@ func (g *Gatekeeper) RenewalWorker(controlChan chan struct{}) {
 		}
 
 		notify := func(err error, t time.Duration){
-			log.Warnf("Looking up our token's ttl caused an error: %v. Retrying")
+			log.Warnf("Looking up our token's ttl caused an error: %v. Retrying", err)
 		}
-
+		log.Info("Going to search my token in Vault to get the current TTL")
 		err = backoff.RetryNotify(retryable, b, notify)
-
+		log.Info("Token search finished.. checking results")
 		if err == nil {
 			if ttl == 0 {
 				// root token
@@ -603,7 +603,7 @@ func (g *Gatekeeper) RenewalWorker(controlChan chan struct{}) {
 			if err := g.RenewToken(); err == nil {
 				log.Infof("Renewed Vault Token (original ttl: %v)", ttl)
 			} else {
-				log.Warn("Failed to renew Vault token. Is the policy set correctly? Error: %v", err)
+				log.Warnf("Failed to renew Vault token. Is the policy set correctly? Error: %v", err)
 			}
 		} else {
 			log.Warnf("Looking up our token's ttl caused an error: %v. Is the policy set correctly? Gatekeeper will now be sealed.", err)
