@@ -252,21 +252,11 @@
   version = "v2.2.1"
 
 [[projects]]
-  name = "github.com/nemosupremo/vault-gatekeeper"
-  packages = [
-    ".",
-    "cmd",
-    "gatekeeper",
-    "policy",
-    "scheduler",
-    "scheduler/ecs",
-    "scheduler/mesos",
-    "scheduler/mock",
-    "usagestore",
-    "vault",
-    "vault/unsealer"
-  ]
-  version = "v1.0.3"
+  name = "github.com/cenkalti/backoff"
+  packages = ["."]
+  revision = "2ea60e5f094469f9e65adb9cd103795b73ae743e"
+  version = "v2.0.0"
+
 
 [solve-meta]
   analyzer-name = "dep"
